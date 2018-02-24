@@ -62,7 +62,7 @@ java NBody 157788000.0 50000.0 data/planets.txt
 ```shell
 java NBody 157788000.0 50000.0 data/starman.txt
 ```
-![Starman](https://i.imgur.com/Upc6NGW.gif)
+<img src="/gifs/proj0/starman.gif?raw=true" width="200px">
 
 And since we all know the earth is really flat...
 ```shell
