@@ -61,6 +61,20 @@ public class Planet {
 		return y_sum;
 	}
 
+	public void update(double time, double xNet, double yNet) {
+		double xAccel = xNet / this.mass;
+		double yAccel = yNet / this.mass;
+		this.xxVel += time*xAccel;
+		this.yyVel += time*yAccel;
+		this.xxPos += time*this.xxVel;
+		this.yyPos += time*this.yyVel;
+	}
+
+	/** draw the current planet to the screen	*/
+	public void draw() {
+		StdDraw.picture(this.xxPos, this.yyPos, "images/" + this.imgFileName);
+	}
+
 	public Planet(double xP, double yP, double xV,
 				  double yV, double m, String img) {
 		this.xxPos = xP;
