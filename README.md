@@ -56,7 +56,7 @@ Example of a snapshot of our solar system running:
 ```shell
 java NBody 157788000.0 50000.0 data/planets.txt
 ```
-[Planet_Demo](https://i.imgur.com/CJ5FzWu.gifv)
+![Planet_Demo](https://i.imgur.com/CJ5FzWu.gifv)
 
 
 
