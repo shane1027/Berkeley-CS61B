@@ -32,18 +32,21 @@ The following outline of homework / project descriptions and results will be upd
 
 ### Homework
 
-#### Homework 0
+<details><summary>Homework 0</summary>
 
 * Quick review of git, OOP, and introduction to Java syntax / ideologies
 * Playing with simple Java programs - classes, methods, arrays, objects, you name it
 * Having fun setting up NeoVim to run asynchronously alongside Sublime Text 3
   to achieve [actual vim usage within Sublime!](https://github.com/lunixbochs/ActualVim)
+</details>
 
-#### Homework 1
+<details><summary>Homework 1</summary>
+coming soon!
+</details>
 
 ### Projects
 
-#### Project 0
+<details><summary>Project 0</summary>
 
 * Used [StdDraw library from Princeton](https://introcs.cs.princeton.edu/java/stdlib/javadoc/StdDraw.html)
 to implement a simple gravitation sandbox
@@ -69,10 +72,12 @@ And since we all know the earth is really flat...
 java NBody 157788000.0 50000.0 data/flat-earth.txt
 ```
 ![Flat_Earth](https://i.imgur.com/guN2HgF.gif)
+</details>
 
+<details><summary>Project 1</summary>
 
-#### Project 1
-
+coming soon!
+</details>
 
 ## License
 
