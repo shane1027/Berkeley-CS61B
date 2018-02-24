@@ -12,7 +12,7 @@ The reason for me 'taking' this course is three-fold:
 * Improving my abilities in Java
 * Relearning key data structures concepts in a formal fashion, cementing
   knowledge
-* Creating tangible evidence that I am just as capable a software engineer as
+* Creating tangible evidence that I have the same knowledge base as
   those whose transcript says 'Computer Science' rather than 'Electrical
   Engineering' and 'Physics'
 
@@ -37,7 +37,7 @@ The following outline of homework / project descriptions and results will be upd
 * Quick review of git, OOP, and introduction to Java syntax / ideologies
 * Playing with simple Java programs - classes, methods, arrays, objects, you name it
 * Having fun setting up NeoVim to run asynchronously alongside Sublime Text 3
-  to achieve actual vim usage within Sublime!
+  to achieve [actual vim usage within Sublime!](https://github.com/lunixbochs/ActualVim)
 
 #### Homework 1
 
@@ -49,7 +49,7 @@ The following outline of homework / project descriptions and results will be upd
 to implement a simple gravitation sandbox
 * Read in starting positions, velocities, masses, and image file names to
   create a dynamic simulation of the motion of massive bodies
-* Extended to include elastic collisions, mouse interactions to drag bodies and
+* (Coming Soon): Extended to include elastic collisions, mouse interactions to drag bodies and
   instantiate new bodies, and audio output
 
 Example of a snapshot of our solar system running:
@@ -58,6 +58,10 @@ java NBody 157788000.0 50000.0 data/planets.txt
 ```
 ![Planet_Demo](https://i.imgur.com/CJ5FzWu.gif)
 
+[Starman](https://www.wikiwand.com/en/Elon_Musk%27s_Tesla_Roadster) being launched into orbit towards Mars:
+```shell
+java NBody 157788000.0 50000.0 data/starman.txt
+```
 
 
 #### Project 1
@@ -67,5 +71,5 @@ java NBody 157788000.0 50000.0 data/planets.txt
 
 All of my work here is released under the [MIT license](LICENSE.txt).
 
-Please don't use my code if you're an actual CS61B student!
+__Please don't use my code if you're an actual CS61B student!__
 
